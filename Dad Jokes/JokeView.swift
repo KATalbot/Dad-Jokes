@@ -94,7 +94,7 @@ struct JokeView: View {
         do{
             let joke:Joke = try await apiService.getJSON()
             jokeString = joke.joke
-            print("Joke = \(jokeString)")
+            //print("Joke = \(jokeString)")
             
         }catch {
             jokeString = error.localizedDescription
