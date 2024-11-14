@@ -80,10 +80,10 @@ struct JokeView: View {
     
     func getJoke(_ type: String) async  {
         
-        
+        // i.e https://v2.jokeapi.dev/joke/Programming?blacklistFlags=nsfw,religious,political,racist,sexist,explicit
         let url = "https://v2.jokeapi.dev/joke/\(type)?blacklistFlags=nsfw,religious,political,racist,sexist,explicit&type=single"
-        print("Type = \(type)")
-        print("URL=\(url)")
+        //print("Type = \(type)")
+        //print("URL=\(url)")
         let apiService = APIService(urlString: url)
         
         
@@ -103,7 +103,7 @@ struct JokeView: View {
         
         
         
-        //https://v2.jokeapi.dev/joke/Programming?blacklistFlags=nsfw,religious,political,racist,sexist,explicit
+   
         
     }
 }
@@ -113,3 +113,4 @@ struct JokeView: View {
         .frame(width: 225, height: 255)
         
 }
+
