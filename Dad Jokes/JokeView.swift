@@ -101,10 +101,6 @@ struct JokeView: View {
             
         }
         
-        
-        
-   
-        
     }
 }
 

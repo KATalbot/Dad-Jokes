@@ -3,6 +3,8 @@
 //  Dad Jokes
 //
 //  Created by keith Talbot on 11/12/24.
+//  Previos API was not in use.
+//  New joke API was used - https://v2.jokeap
 //
 
 import SwiftUI
